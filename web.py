@@ -1,19 +1,41 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
-<!DOCTYPE html>
+
 <html>
-<head>
-<title>My webserver</title>
-</head>
+<title>software companies</title>
 <body>
-<table border=2>
+<table border="3" cellspacing="2" cellpadding="6">
+<caption>Top 5 Revenue Generating Software Companies</caption>
 <tr>
-<th>Company</th> <th>Revenue</th> <th>Financial Year</th>
+	<th>S.no</th>
+	<th>Company</th>
+	<th>Revenue</th>
 </tr>
 <tr>
-<th>Micro Soft</th> <th>$9034</th> <th>2014</th>
+	<td>1</td>
+	<td>Microsoft</td>
+	<td>65 Billion</td>
 </tr>
-</table>
+<tr>
+	<td>2</td>
+	<td>Oracle</td>
+	<td>29.6 Billion</td>
+</tr>
+<tr>
+	<td>3</td>
+	<td>IBM</td>
+	<td>29.1 Billion</td>
+</tr>
+<tr>
+	<td>4</td>
+	<td>SAP</td>
+	<td>6.4 Billion</td>
+</tr>
+<tr>
+	<td>5</td>
+	<td>Symantec</td>
+	<td>5.6 Billion</td>
+</tr>
 </body>
 </html>
 """
