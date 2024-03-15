@@ -1,6 +1,5 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
-
 <html>
 <title>software companies</title>
 <body>
@@ -10,31 +9,37 @@ content = """
 	<th>S.no</th>
 	<th>Company</th>
 	<th>Revenue</th>
+	<th>Financial Year</th>
 </tr>
 <tr>
 	<td>1</td>
 	<td>Microsoft</td>
-	<td>65 Billion</td>
+	<td>86.8 Billion</td>
+	<td>2014</td>
 </tr>
 <tr>
 	<td>2</td>
 	<td>Oracle</td>
-	<td>29.6 Billion</td>
+	<td>37.1 Billion</td>
+	<td>2013</td>
 </tr>
 <tr>
 	<td>3</td>
-	<td>IBM</td>
-	<td>29.1 Billion</td>
+	<td>SAP</td>
+	<td>20.9 Billion</td>
+	<td>2013</td>
 </tr>
 <tr>
 	<td>4</td>
-	<td>SAP</td>
-	<td>6.4 Billion</td>
+	<td>Symentec</td>
+	<td>6.8 Billion</td>
+	<td>2013</td>
 </tr>
 <tr>
 	<td>5</td>
-	<td>Symantec</td>
-	<td>5.6 Billion</td>
+	<td>VMware</td>
+	<td>5.2 Billion</td>
+	<td>2013</td>
 </tr>
 </body>
 </html>
